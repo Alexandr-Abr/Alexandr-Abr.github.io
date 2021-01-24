@@ -1,0 +1,101 @@
+
+.container {
+	width:100%;
+	margin:0 auto;
+/*	border:3px solid red; */
+}
+.head {
+	float:left;
+    width:100%;
+}
+body {
+	background-color:E7E7E7;
+}
+img {
+	/*border: 1px solid blue;*/
+}
+p {
+	font-size:20px;
+}
+.zag { 
+	font-size:30px;
+}
+.zag1 {
+	margin-top:50px;
+	font-size:30px;
+}
+.content {
+	width:100%;
+	margin:0 auto;
+}
+.text1 {
+	margin-left:90px;
+	margin-right:90px;
+	margin-top:-10px;
+}
+.text2 {
+	margin-left:90px;
+	margin-right:90px;
+	margin-top:485px;
+}
+.img {
+	text-align:center;
+}
+.img1 {
+	width:60%;
+}
+.img2 {
+	width:33%;
+}
+.block1 {
+	width:60%;
+	float:left;
+	margin-top:10px;
+	margin-left:30px;
+}
+.block2 {
+	width:30%;
+	float:left;
+	margin-top:5px;
+	margin-left:30px;
+}
+.block0 {
+	display:block;
+	margin:0 auto;
+	width:90%;
+}
+#square {
+    width:100%;
+    height:10%;
+    background:#282828;
+}
+.PodText {
+	float:left;
+	margin-left:20px;
+	color:#959595;
+}
+.PodImg1 {
+	margin-top:10px;
+	margin-left:7px;
+	float:left;
+}
+.PodImg {
+	margin-top:10px;
+	margin-left:7px;
+	float:left;
+}
+.menu {
+	display:block;
+	position:fixed;
+	margin-top:120px;
+	width:4%;
+}
+.menu:active {
+	background-color:red;
+}
+.menu1 {
+	display:none;
+}
+.menu1:active {
+	display:block;
+}
