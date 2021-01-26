@@ -21,9 +21,10 @@ p {
 }
 .zag { 
 	font-size:30px;
+	margin-left:40%;
 }
 .zag1 {
-	margin-top:50px;
+	margin-top:20px;
 	font-size:30px;
 }
 .content {
@@ -38,7 +39,7 @@ p {
 .text2 {
 	margin-left:90px;
 	margin-right:90px;
-	margin-top:485px;
+	margin-top:30px;
 }
 .img {
 	text-align:center;
@@ -47,7 +48,7 @@ p {
 	width:60%;
 }
 .img2 {
-	width:33%;
+	width:45%;
 }
 .block1 {
 	width:60%;
