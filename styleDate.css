@@ -1,8 +1,7 @@
 
 .container {
-	width:100%;
-	margin:0 auto;
-/*	border:3px solid red; */
+	width:101.5%;
+	margin-left:-10px;
 }
 .head {
 	float:left;
@@ -29,7 +28,9 @@ p {
 	font-size:20px;
 }
 .zag { 
-	font-size:30px;
+	font-size:200%;
+	margin-left:30%;
+	
 }
 .zag1 {
 	margin-top:50px;
@@ -39,41 +40,34 @@ p {
 	width:100%;
 	margin:0 auto;
 }
-.text1 {
-	margin-left:90px;
-	margin-right:90px;
-	margin-top:-10px;
-}
-.text2 {
-	margin-left:90px;
-	margin-right:90px;
-	margin-top:40%;
-}
-.img {
-	text-align:center;
-}
 .img1 {
+	display:inline;
+	margin-left:10%;
 	width:60%;
 }
 .img2 {
-	width:33%;
+	display:block;
+	width:100%;
+	margin-top:14%;
 }
-.block1 {
-	width:60%;
-	float:left;
-	margin-top:10px;
-	margin-left:30px;
+.img3 {
+	display:block;
+	width:100%;
+	margin-top:14%;
+	margin-left:10%;
 }
-.block2 {
-	width:30%;
-	float:left;
-	margin-top:5px;
-	margin-left:30px;
+.Picture {
+	display:block;
+	width:13%;
+	float:right;
+	margin-right:8%;
+	margin-top:160px;
 }
-.block0 {
+.text1 {
 	display:block;
 	margin:0 auto;
-	width:90%;
+	width:100%;
+	margin-top:-10px;
 }
 #square {
     width:100%;
@@ -84,7 +78,7 @@ p {
 	position:fixed;
 	left: 0;
     width:220px;
-    height:110%;
+    height:100%;
     background:#D9D9D9;
 	z-index:100;
 	
@@ -102,13 +96,13 @@ p {
 Li {
 	list-style:none;
 }
-
 .Li1 {
 	position:relative;
 	margin-left:-30px;
 	font-size:22px;
 }
 .Li2 {
+	display:block;
 	position:relative;
 	margin-left:-20px;
 	margin-top:10px;

@@ -1,7 +1,7 @@
 
 .container {
-	width:100%;
-	margin:0 auto;
+	width:101.5%;
+	margin-left:-10px;
 /*	border:3px solid red; */
 }
 .head {
@@ -84,10 +84,9 @@ p {
 	position:fixed;
 	left: 0;
     width:220px;
-    height:110%;
+    height:100%;
     background:#D9D9D9;
 	z-index:100;
-	
 }
 #square2 {
 	  background-color:#000; /* Чёрный фон */
@@ -109,6 +108,7 @@ Li {
 	font-size:22px;
 }
 .Li2 {
+	display:block;
 	position:relative;
 	margin-left:-20px;
 	margin-top:10px;
