@@ -2,6 +2,7 @@
 .container {
 	width:101.5%;
 	margin-left:-10px;
+/*	border:3px solid red; */
 }
 .head {
 	float:left;
@@ -28,9 +29,7 @@ p {
 	font-size:20px;
 }
 .zag { 
-	font-size:200%;
-	margin-left:30%;
-	
+	font-size:30px;
 }
 .zag1 {
 	margin-top:50px;
@@ -40,34 +39,31 @@ p {
 	width:100%;
 	margin:0 auto;
 }
-.img1 {
-	display:inline;
-	margin-left:10%;
+.Vid1 {
+	display:block; 		
+	width:45%;
+	margin-left:27%;
+}
+.t {
+	width:100%;
+	margin-top:30px;
+}
+.block1 {
 	width:60%;
+	float:left;
+	margin-top:10px;
+	margin-left:30px;
 }
-.img2 {
-	display:block;
-	width:125%;
-	margin-top:14%;
+.block2 {
+	width:30%;
+	float:left;
+	margin-top:5px;
+	margin-left:30px;
 }
-.img4 {
-	display:block;
-	width:120%;
-	margin-top:12%;
-	margin-left:10%;
-}
-.Picture {
-	display:block;
-	width:20%;
-	float:right;
-	margin-right:8%;
-	margin-top:160px;
-}
-.text1 {
+.block0 {
 	display:block;
 	margin:0 auto;
-	width:100%;
-	margin-top:-10px;
+	width:90%;
 }
 #square {
     width:100%;
@@ -81,7 +77,6 @@ p {
     height:100%;
     background:#D9D9D9;
 	z-index:100;
-	
 }
 #square2 {
 	  background-color:#000; /* Чёрный фон */
@@ -96,6 +91,7 @@ p {
 Li {
 	list-style:none;
 }
+
 .Li1 {
 	position:relative;
 	margin-left:-30px;
