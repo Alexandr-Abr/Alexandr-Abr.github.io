@@ -1,0 +1,144 @@
+
+.container {
+	width:100%;
+	margin:0 auto;
+/*	border:3px solid red; */
+}
+.head {
+	float:left;
+    width:100%;
+}
+body {
+	background-color:E7E7E7;
+	max-width:1400px;
+	min-width:800px;
+}
+img {
+	/*border: 1px solid blue;*/
+}
+p {
+	font-size:20px;
+}
+.zag { 
+	font-size:30px;
+	margin-left:40%;
+}
+.zag1 {
+	margin-top:20px;
+	font-size:30px;
+}
+.content {
+	width:100%;
+	margin:0 auto;
+}
+.text1 {
+	margin-left:90px;
+	margin-right:90px;
+	margin-top:-10px;
+}
+.text2 {
+	margin-left:90px;
+	margin-right:90px;
+	margin-top:30px;
+}
+.img {
+	text-align:center;
+}
+.img1 {
+	width:60%;
+}
+.img2 {
+	width:45%;
+}
+.block1 {
+	width:60%;
+	float:left;
+	margin-top:10px;
+	margin-left:30px;
+}
+.block2 {
+	width:30%;
+	float:left;
+	margin-top:5px;
+	margin-left:30px;
+}
+.block0 {
+	display:block;
+	margin:0 auto;
+	width:90%;
+}
+#square {
+    width:100%;
+    height:10%;
+    background:#282828;
+}
+#square1 {
+	position:fixed;
+	left: 0;
+    width:220px;
+    height:110%;
+    background:#D9D9D9;
+	z-index:100;
+	
+}
+#square2 {
+	  background-color:#000; /* Чёрный фон */
+	  height:100%; /* Высота максимальна */
+	  left:0; /* Нулевой отступ слева */
+	  opacity:0.50; /* Степень прозрачности */
+	  position:fixed; /* Фиксированное положение */
+	  top:0; /* Нулевой отступ сверху */
+	  width:100%; /* Ширина максимальна */
+	  display:none;
+}
+Li {
+	list-style:none;
+}
+
+.Li1 {
+	position:relative;
+	margin-left:-30px;
+	font-size:22px;
+}
+.Li2 {
+	position:relative;
+	margin-left:-20px;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-right:20px;
+	border:2px solid black; 
+	font-size:18px;
+}
+.rofl {
+	margin-left:50px;
+	margin-top:20px;
+}
+.PodText {
+	float:left;
+	margin-left:20px;
+	color:#959595;
+}
+.PodImg1 {
+	margin-top:10px;
+	margin-left:7px;
+	float:left;
+}
+.PodImg {
+	margin-top:10px;
+	margin-left:7px;
+	float:left;
+}
+.menu {
+	display:block;
+	position:fixed;
+	margin-top:120px;
+	width:60px;
+}
+.menu:hover {
+	display:block:menu1;
+}
+.menu1 {
+	position:absolute;
+	display:none;
+}
+
