@@ -89,14 +89,12 @@ p {
 	z-index:100;
 }
 #square2 {
-	  background-color:#000; /* Чёрный фон */
-	  height:100%; /* Высота максимальна */
-	  left:0; /* Нулевой отступ слева */
-	  opacity:0.50; /* Степень прозрачности */
-	  position:fixed; /* Фиксированное положение */
-	  top:0; /* Нулевой отступ сверху */
-	  width:100%; /* Ширина максимальна */
-	  display:none;
+	background-color:#000; 
+	height:100%; 
+	left:0; 
+	position:fixed; 
+	top:0; 
+	width:100%;
 }
 Li {
 	list-style:none;
@@ -158,6 +156,23 @@ Li {
 div.menu:hover div.menu1{
 	display:block;
 }
+
+.sqr_view{
+	transition-property: opacity;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-out;
+	opacity:0.5;
+	//display:block;
+}
+
+.sqr_not_view{
+	transition-property: opacity;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-out;
+	opacity:0;
+	//display:none;
+}
+
 .menu1 {
 	position:absolute;
 	display:none;

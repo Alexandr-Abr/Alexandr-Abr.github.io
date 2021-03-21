@@ -1,6 +1,8 @@
 <html>
 
 	<head>
+	  <!--script src="script.js"></script-->
+
 	 <meta charset="utf-8">
 	 <title> Хидео Кодзима </title>
 	 <link href="style.css" rel="stylesheet" type="text/css"/>
@@ -13,19 +15,21 @@
 			<div class="head">
 				<p class="X"> Хидео Кодзима </p>
 				<img src="head.png" class="head"/>
+					
+				<div id="square2" class="sqr_not_view">
+				</div>
 			</div>
 			
-			<div class="content">
+			<div class="content" >
 				
 				<div class="menu"> 			  
 					<img src="group 2.png" class="menu---"/>
 					
-					<div class="menu1" id="square1">
+					<div class="menu1" id="square1" onmouseover="getElementById('square2').className = 'sqr_view'" onmouseout="getElementById('square2').className = 'sqr_not_view'">
 				
 						<img src="image 7.png" class="rofl"/>
 						
-						<div id="square2">
-						</div>
+						
 						
 						<ul>
 							<a class="li3" href="Main.html"> Главная </a>
@@ -67,6 +71,7 @@
 			</div>
 			
 			<div id="square">
+			
 			<p class="PodText"> По всем вопросам обращатсья сюда: </p>
 			 <p> <a href="https://vk.com/terlokk"><img src="image 14.png" class="PodImg1" href="https://vk.com/terlokk"/> </a> </p>
 			 <img src="image 15.png" class="PodImg" />
