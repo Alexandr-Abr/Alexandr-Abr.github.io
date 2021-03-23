@@ -4,8 +4,11 @@
 /*	border:3px solid red; */
 }
 a {
-  color: #363847 !important;
-  text-decoration: none
+	color: #363847;
+	text-decoration: none
+}
+a:hover{
+	color:#4c5fba;
 }
 .head {
 	float:left;
@@ -137,12 +140,12 @@ Li {
 	color:#959595;
 }
 .PodImg1 {
-	margin-top:10px;
+	margin-top:-5px;
 	margin-left:7px;
 	float:left;
 }
 .PodImg {
-	margin-top:10px;
+	margin-top:-5px;
 	margin-left:7px;
 	float:left;
 }

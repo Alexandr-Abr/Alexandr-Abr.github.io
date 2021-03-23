@@ -3,8 +3,11 @@
 	width:101.5%;
 }
 a {
-  color: #363847 !important;
-  text-decoration: none
+	color: #363847;
+	text-decoration: none
+}
+a:hover{
+	color:#4c5fba;
 }
 .head {
 	float:left;
