@@ -1,8 +1,11 @@
 
 .container {
 	width:101.5%;
-	margin:0 auto;
 /*	border:3px solid red; */
+}
+a {
+  color: #363847 !important;
+  text-decoration: none
 }
 .head {
 	float:left;
@@ -21,6 +24,7 @@ body {
 	background-color:E7E7E7;
 	max-width:1400px;
 	min-width:800px;
+	margin:0 auto;
 }
 img {
 	/*border: 1px solid blue;*/
@@ -85,6 +89,7 @@ p {
 	position:fixed; 
 	top:0; 
 	width:100%;
+	pointer-events: none;
 }
 Li {
 	list-style:none;
@@ -148,7 +153,7 @@ div.menu:hover div.menu1{
 }
 .sqr_view{
 	transition-property: opacity;
-	transition-duration: 0.5s;
+	transition-duration: 0.3s;
 	transition-timing-function: ease-out;
 	opacity:0.5;
 	//display:block;
@@ -156,7 +161,7 @@ div.menu:hover div.menu1{
 
 .sqr_not_view{
 	transition-property: opacity;
-	transition-duration: 0.5s;
+	transition-duration: 0.3s;
 	transition-timing-function: ease-out;
 	opacity:0;
 	//display:none;
